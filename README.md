@@ -7,9 +7,9 @@ Link to Dataset: Click Here
 ## Questions to Answer
 
 1. How many total reported shootings in NYC from 2017-2022?
-  - 1.1 How many total shootings in each borough?
+    - 1.1 How many total shootings in each borough?
 2. How many total shootings each year from 2017-2022?
-  - 2.1 How many in each borough each year from 2017-2022?
+    - 2.1 How many in each borough each year from 2017-2022?
 3. Is there a monthly pattern in shootings?
 4. What is the deadliest shooting incident from 2017-2022?
 5. What is the distribution of shootings by each hour in 2022?
@@ -30,3 +30,17 @@ Link to Dataset: Click Here
 
 - Performed analysis using combination of SQL queries and Pandas dataframes
 - Visualized queries using libraries like Matplotlib and Seaborn
+
+## Files in this Repo
+
+Data Folder
+- NY_Shootings.csv: The original NYC shootings CSV dataset downloaded from NYC Open Data
+- clean_nyc_shootings.ipynb: The data cleaning code for the original dataset
+- clean_incidents.csv: One of the CSV files resulting from the data cleaning
+- clean_shootings.csv: The other CSV file resulting from the data cleaning, clean_incidents.csv and clean_shootings.csv can be joined together
+- nyc_shootings_db_setup.ipynb: The code for setting up the and storing the two csv files in two tables in a SQlite3 database
+
+Analysis Folder
+- nyc_shootings_analysis.ipynb: The analysis code on the two SQLite3 tables containing the NYC shootings data
+
+Charts Folder: The folder contains all the visualizations created in the analysis code as image files
