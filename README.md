@@ -4,7 +4,7 @@
 
 Shootings have become a growing problem in the United States. As a NYC resident, I wanted to know what the shootings situation was like in my city. I found a dataset on NYC Open Data that has all the past reported shootings from 2005-2022, this was perfect for my goal.
 
-Link to Dataset: Click Here
+Link to Dataset: [Click Here](https://data.cityofnewyork.us/Public-Safety/NYPD-Shooting-Incident-Data-Historic-/833y-fsy8)
 
 ## Questions to Answer
 
