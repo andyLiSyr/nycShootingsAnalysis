@@ -24,7 +24,7 @@ Link to Dataset: [Click Here](https://data.cityofnewyork.us/Public-Safety/NYPD-S
 
 - Loaded the dataset into a Pandas dataframe in a Jupyter Notebook for data cleaning
 - Checked for outlier values and nulls in each column, all outlier values were fixed and null values were filled in
-- Removed unnecessary columns and filtered out rows of data that were not needed for my analyis
+- Removed unnecessary columns and filtered out rows of data that were not needed for my analysis
 - Changed the structure of the original dataset by splitting it into two seperate CSV files that can be joined together
 - Transformed the data by storing the CSV files in tables in a SQlite3 database
 
